@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>COURS SUP3 | 2022-2023</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700">
+	<link rel="stylesheet" type="text/css" href="assets/css/prismjs.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<script>
+if (document.documentElement) { 
+	const defaultThemeMode = "system"; 
+	const name = document.body.getAttribute("data-kt-name"); 
+	let themeMode = localStorage.getItem("kt_" + ( name !== null ? name + "_" : "" ) + "theme_mode_value"); 
+	if (themeMode === null) { 
+		if (defaultThemeMode === "system") { 
+			themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; 
+		} else { 
+			themeMode = defaultThemeMode; 
+		} 
+	} 
+	document.documentElement.setAttribute("data-theme", themeMode); 
+}
+</script>
+
+<div class="docs-page d-flex flex-row flex-column-fluid">
+	<div class="d-flex flex-column flex-row-fluid" id="kt_docs_wrapper">
+		<div id="kt_docs_header" class="docs-header align-items-stretch mb-2 mb-lg-10">
+			<div class="container">
+				<div class="d-flex align-items-stretch justify-content-between py-3 h-75px">
+					<div class="d-flex align-items-center justify-content-center flex-lg-grow-1">
+						<div class="d-flex align-items-center" id="kt_docs_header_title">
+							<div class="docs-page-title d-flex flex-column flex-lg-row align-items-lg-center py-5 mb-lg-0" data-kt-swapper="true" data-kt-swapper-mode="prepend" data-kt-swapper-parent="{default: '#kt_docs_content_container', 'lg': '#kt_docs_header_title'}">
+								<h1 class="d-flex align-items-center text-dark text-center my-1 fs-4">Documentation
+								<div class="badge fw-semibold fs-9 px-2 ms-2 bg-body text-dark shadow-sm">v1.0.0</div></h1>
+								<span class="d-none d-lg-block bullet h-20px w-1px bg-secondary mx-4"></span>
+								<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-6 my-1">
+									<li class="breadcrumb-item text-dark">NOM DU COURS</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="border-gray-300 border-bottom border-bottom-dashed"></div>
+			</div>
+		</div>
+		<div class="docs-content d-flex flex-column flex-column-fluid" id="kt_docs_content">
+			<div class="container d-flex flex-column flex-lg-row" id="kt_docs_content_container">
+				<div class="card card-docs flex-row-fluid mb-2">
+					<div class="card-body fs-6 py-15 px-10 py-lg-15 px-lg-15 text-gray-700">
+						<div class="pb-10">
+							<h1 class="text-center fw-bold">NOM DU COURS</h1>
+							<div class="py-5">
+								<div class="highlight">
+									<center>Fichier index.php</center>
+									<button class="highlight-copy btn" data-bs-toggle="tooltip">copier</button>
+									<div class="highlight-code">
+										<pre class="language-html">
+<code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang="fr"&gt;
+&lt;head&gt;
+	&lt;title&gt;Nom du projet&lt;/title&gt;
+	&lt;meta charset="utf-8"&gt;
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+	&lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+	&lt;link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"&gt;
+	&lt;link rel="stylesheet" type="text/css" href="assets/css/style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;nav class="navbar navbar-expand-lg navbar-dark bg-dark"&gt;
+  	&lt;div class="container-fluid"&gt;
+    	&lt;a class="navbar-brand" href="/Projet/"&gt;Projet&lt;/a&gt;
+    	&lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"&gt;
+      		&lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+    	&lt;/button&gt;
+    	&lt;div class="collapse navbar-collapse" id="navbarSupportedContent"&gt;
+      		&lt;ul class="navbar-nav me-auto mb-2 mb-lg-0"&gt;
+        		&lt;li class="nav-item"&gt;
+          			&lt;a class="nav-link active" aria-current="page" href="/Projet/"&gt;Accueil&lt;/a&gt;
+        		&lt;/li&gt;
+        		&lt;li class="nav-item"&gt;
+          			&lt;a class="nav-link" href="javascript:void(0)"&gt;Page 1&lt;/a&gt;
+        		&lt;/li&gt;
+        		&lt;li class="nav-item"&gt;
+          			&lt;a class="nav-link" href="javascript:void(0)"&gt;Page 2&lt;/a&gt;
+        		&lt;/li&gt;
+        		&lt;li class="nav-item"&gt;
+          			&lt;a class="nav-link" href="javascript:void(0)"&gt;Page 3&lt;/a&gt;
+        		&lt;/li&gt;
+        		&lt;li class="nav-item"&gt;
+          			&lt;a class="nav-link" href="javascript:void(0)"&gt;Page 4&lt;/a&gt;
+        		&lt;/li&gt;
+        		&lt;li class="nav-item"&gt;
+          			&lt;a class="nav-link" href="javascript:void(0)"&gt;Page 5&lt;/a&gt;
+        		&lt;/li&gt;
+      		&lt;/ul&gt;
+      		&lt;a class="btn btn-primary me-2" href="javascript:void(0)"&gt;Connexion&lt;/a&gt;
+      		&lt;a class="btn btn-success me-2" href="javascript:void(0)"&gt;Inscription&lt;/a&gt;
+    	&lt;/div&gt;
+  	&lt;/div&gt;
+&lt;/nav&gt;
+
+&lt;script src="assets/js/script.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code>
+</pre>
+									</div>
+								</div>
+							</div>
+							<div class="py-5">
+								<div class="highlight">
+									<center>Fichier .htaccess <i>(suppression des extensions comme ".php")</i></center>
+									<button class="highlight-copy btn" data-bs-toggle="tooltip">copier</button>
+									<div class="highlight-code">
+										<pre class="language-bash">
+<code class="language-bash">RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php?page=$1 [QSA,L]</code>
+</pre>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pb-10">
+							<h1 class="fw-bold mb-2">I. Titre 1</h1>
+							<div class="py-5" style="text-align: justify!important;">Texte 1</div>
+						</div>
+						<div class="pb-10">
+							<h1 class="fw-bold mb-2">II. Titre 2</h1>
+							<div class="py-5" style="text-align: justify!important;">Texte 2</div>
+						</div>
+						<div class="pb-10">
+							<h1 class="fw-bold mb-2">III. Titre 3</h1>
+							<div class="py-5" style="text-align: justify!important;">Texte 3</div>
+						</div>
+						<div class="pb-10">
+							<h1 class="fw-bold mb-2">IV. Titre 4</h1>
+							<div class="py-5" style="text-align: justify!important;">Texte 4</div>
+						</div>
+						<div class="pb-0">
+							<div class="row d-flex justify-content-center">
+								<div class="col-auto">
+									<a href="javascript:void(0)" class="btn btn-info">Télécharger le projet</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="py-4 d-flex flex-lg-column py-6" id="kt_footer">
+			<div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+				<div class="text-dark order-2 order-md-1">
+					<span class="text-muted fw-semibold me-1"><span id="year"></span> ©</span>
+					<span class="text-gray-800">Tom Bruaire</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/prismjs.js"></script>
+<script src="assets/js/documentation.js"></script>
+
+</body>
+</html>
